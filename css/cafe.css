@@ -1,0 +1,305 @@
+@font-face {
+  font-family: 'Basteleur';
+  src: url('../fonts/Basteleur-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/MontserratAlternates-Medium.ttf');
+}
+
+
+body{
+  margin:0;
+  background:#FAEDCD;
+}
+
+h2{
+  font-family: Basteleur;
+  font-size:2em;
+  margin-block-end: 0em;
+}
+
+h3{
+  font-family: Basteleur;
+  font-size:1.5em;
+}
+
+p{
+  font-family: 'Montserrat';
+  font-size:1.1em;
+  text-align:justify;
+  line-height: 1.5;
+}
+
+ul>li{
+  font-family: 'Montserrat';
+  font-size:1.1em;
+  text-align:justify;
+  line-height: 1.5;
+}
+
+.flourish-credit{
+  display:none;
+}
+
+section:nth-of-type(1){
+  margin-bottom:2%;
+}
+
+section:nth-of-type(2){
+  margin-bottom:5%;
+}
+
+section:nth-of-type(3){
+  margin-bottom:5%;
+}
+
+
+
+
+
+
+
+/*header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}*/
+
+#home{
+  position:absolute;
+  z-index: 1;
+  width:7%;
+  top:4%;
+  padding-right:5%;
+  margin-bottom:5%;
+}
+
+#imghome:hover{
+  opacity:0;
+}
+
+#homehover{
+  position:absolute;
+  z-index: 0;
+  width:7%;
+  top:4%;
+  padding-right:5%;
+  margin-bottom:5%;
+}
+
+h1{
+  height:15vh;
+  text-align:center;
+  font-family: Basteleur;
+  font-size:3.4em;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+#presentation{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#specialite{
+  width:65%;
+  padding-left:5%;
+  padding-right:3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.highlight{
+  color: #A76B30;
+}
+
+#last{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+}
+
+#grains{
+  width:11%;
+}
+
+#choix{
+  padding-left:5%;
+  width:80%;
+}
+
+#machine{
+  width:35%;
+}
+
+img{
+  width:100%;
+}
+
+
+
+
+
+
+#saveurs{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+}
+
+#roue{
+  width:45%;
+  padding-left:4%;
+  padding-right:4%;
+}
+
+#textesaveurs{
+  width:55%;
+  padding-right:5%;
+}
+
+.sucre{
+    color: #E95727;
+    font-weight:bold;
+}
+
+.acide{
+    color: #DD1A1D;
+    font-weight:bold;
+}
+
+.sale{
+    color: #04A3B7;
+    font-weight:bold;
+}
+
+.amer{
+    color: #EBB501;
+    font-weight:bold;
+}
+
+#positif>span:nth-child(1){
+  color:#D20962;
+}
+
+#positif>span:nth-child(2){
+  color:#AF1F3B;
+}
+
+#positif>span:nth-child(3){
+  color:#A97B62;
+}
+
+#negatif>span:nth-child(1){
+  color:#147B2B;
+}
+
+#negatif>span:nth-child(2){
+  color:#04A3B7;
+}
+
+
+
+
+
+
+.conseils{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom:3%;
+}
+
+#texteconseils{
+  width:75%;
+  padding-right:5%;
+}
+
+#texteconseils>p{
+  padding-top:3%;
+  padding-left:8%;
+}
+
+#chat{
+  width:25%;
+  padding-left:5%;
+}
+
+img{
+  width:100%;
+}
+
+.imgcafe{
+  width:20%;
+}
+
+.textecafe{
+  width:30%;
+}
+
+.droite{
+  padding-right:5%;
+}
+
+.gauche{
+  padding-left:5%;
+}
+
+
+
+
+img{
+  width:100%;
+}
+
+
+
+
+
+
+
+
+#adresses{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#frise1{
+  width:20%;
+}
+
+#frise2{
+  width:20%;
+}
+
+#map{
+  width:45%;
+  text-align:center;
+  margin-block-end: 1em;
+}
+
+
+
+
+

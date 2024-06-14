@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Basteleur';
+  src: url('../fonts/Basteleur-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Moonlight';
+  src: url('../fonts/Basteleur-Moonlight.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/MontserratAlternates-Light.ttf');
+}
+
+body{
+  background:#FEFAE0;
+  margin:0;
+}
+
+h1{
+  text-align:center;
+  font-family: 'Basteleur';
+  font-size:10vh;
+  margin-block-end: 0em;
+}
+
+h2{
+  font-family: 'Montserrat-Light';
+/*  font-style:italic;*/
+  font-size:3vh;
+  text-align:center;
+  margin-block-start: 0em;
+}
+
+#content{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#gauche{
+  width:20%;
+  padding-left:3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#milieu{
+  width:60%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+}
+
+#titre{
+  position:fixed;
+  top:3%;
+}
+
+#personnages{
+  position:fixed;
+  bottom:10%;
+  width:40%;
+}
+
+#droite{
+  width:20%;
+  padding-right:3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#cafe{
+  position:fixed;
+  width:20%;
+}
+
+#cafe:hover{
+  position:fixed;
+  top:-20px;
+}
+
+#matcha{
+  position:fixed;
+  width:20%;
+}
+
+#matcha:hover{
+  position:fixed;
+  top:-20px;
+}
+
+img{
+  width:100%;
+}
+
+
+
+
+

@@ -1,0 +1,178 @@
+@font-face {
+  font-family: Basteleur;
+  src: url('../fonts/Basteleur-Bold.otf');
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('../fonts/MontserratAlternates-Medium.ttf');
+}
+
+body{
+      background:#E9EDC9;
+}
+
+.flourish-credit{
+  display:none;
+}
+
+img{
+  width:100%;
+}
+
+
+/*--------------HEADER----------------*/
+
+#home{
+  position:absolute;
+  z-index: 1;
+  width:7%;
+  top:4%;
+  right:0%;
+  padding-left:5%;
+  margin-bottom:5%;
+}
+
+#imghome:hover{
+  opacity:0;
+}
+
+#homehover{
+  position:absolute;
+  z-index: 0;
+  width:7%;
+  top:4%;
+  right:0%;
+  padding-left:5%;
+  margin-bottom:5%;
+}
+
+h1{
+  width: 100%;
+  height:15vh;
+  text-align:center;
+  font-family: Basteleur;
+  font-size:3.4em;
+  text-transform: uppercase;
+
+}
+
+h2{
+  font-family: Basteleur;
+  font-size:2em;
+  width: 100%;
+  text-indent: 5%;
+}
+
+h3{
+  font-family: Basteleur;
+  font-size:1.5em;
+}
+
+p{
+  font-family: 'Montserrat';
+  font-size:1.4em;
+  text-align:justify;
+  line-height: 1.5;
+  width: 100%;
+
+}
+#presentation{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 4%;
+}
+#p_text{
+  width: 35%;
+  padding-right: 10%;
+}
+#p_text3{
+  width: 45%;
+  padding-right:10% ;
+  margin-left: 10%;
+}
+#p_text2{
+  width: 35%;
+  margin-left: 15%;
+  padding-right: 10%;
+  height: 0%;
+}
+ul>li{
+  font-family: 'Montserrat';
+  font-size:1.1em;
+  text-align:justify;
+  line-height: 1.5;
+  width: 100%;
+}
+.matcha1{
+  width: 18%;
+  height: 5%;
+  margin-left: 20%;
+  margin-right: 10%;
+
+}
+.matcha3{
+  width: 15%;
+  height: 5%;
+  margin: auto;
+
+}
+#preparation{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 3%;
+}
+#test{
+  width: 10%;
+}
+#includeHP5{
+  width: 25%;
+}
+#center{
+  text-align: center;
+}
+.accentuation{
+  color: #FFDE95;
+}
+#quality{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 3%;
+  text-align: center;
+  text-indent: 0%;
+
+}
+#quality>h2{
+  text-indent: 0%;
+}
+#p_text4{
+  width: 100%;
+text-align: center;
+
+  height: 0%;
+}
+.grades{
+  width: calc(100%/3);
+}
+.p_text5{  font-size: 1.2em;
+  font-family: 'Montserrat';
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.matcha4{
+  width: 15%;
+  height: 5%;
+  margin-left: 10%;
+  padding-right: 5%;
+}
